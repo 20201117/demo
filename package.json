@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
   "dependencies": {
     "axios": "^0.20.0",
+    "core-js": "^3.7.0",
     "crypto-js": "^4.0.0",
     "element-ui": "^2.13.2",
     "vue": "^2.6.11",
